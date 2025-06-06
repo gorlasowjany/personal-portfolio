@@ -1,0 +1,44 @@
+4-Week Full-Stack Developer Refresher Plan
+Week 1 - React Refresher & Git Basics
+Day 1 - Topic: React concepts - JSX, components, props, state Practice: Build a counter app
+Day 2 - Topic: `useEffect`, `useState`, conditional rendering Practice: Build a todo app with local state
+Day 3 - Topic: `useContext`, lifting state up
+Practice: Add light/dark theme toggle using context
+Day 4 - Topic: React Router (v6)
+Practice: Create a multi-page site (Home, About, Contact) Day 5 - Topic: Git & GitHub - init, add, commit, push Practice: Create a repo and push your projects
+Day 6 - Topic: Git branches, pull requests, merge conflicts Practice: Practice merging branches locally
+Day 7 - Topic: Recap + Build a small blog layout with routing Practice: Deploy to GitHub Pages
+Week 2 - Backend with Node.js, Express & MongoDB
+Day 1 - Topic: Node.js, Express.js setup
+Practice: Build a "Hello API"
+Day 2 - Topic: Routes, Controllers, Middleware
+Practice: Create routes for a notes app
+Day 3 - Topic: MongoDB & Mongoose CRUD
+Practice: Connect to MongoDB Atlas, test CRUD with Postman Day 4 - Topic: RESTful API design
+Practice: Implement a proper folder structure
+Day 5 - Topic: Authentication: JWT & bcrypt
+Practice: Secure routes & login/register users
+Day 6 - Topic: Connect frontend to backend
+Practice: Use Axios to show notes in React
+Day 7 - Topic: Build full CRUD app (notes or tasks)
+Practice: Test with Postman and browser
+Week 3 - Advanced Frontend + State Management
+Day 1 - Topic: Redux: Store, Actions, Reducers Practice: Counter with Redux
+Day 2 - Topic: Redux Toolkit (RTK)
+Practice: Rebuild Todo with RTK
+Day 3 - Topic: Form handling, validation (Formik, Yup) Practice: Signup/Login with validation
+Day 4 - Topic: Axios, async actions in Redux
+Practice: Fetch data from backend
+Day 5 - Topic: Material UI / Tailwind CSS
+Practice: Style your app with a modern UI
+Day 6 - Topic: Error handling, loading UI, toast alerts Practice: Add alerts, error fallback UI
+Day 7 - Topic: Full mini-project with Redux + styling Practice: e.g., Task Manager or Blog Admin
+Week 4 - Deployment & DevOps Basics
+Day 1 - Topic: Hosting frontend: Vercel, Netlify Practice: Deploy your frontend-only projects
+Day 2 - Topic: Hosting backend: Render, Railway Practice: Deploy Express + MongoDB backend Day 3 - Topic: Full-stack deployment
+Practice: Deploy full project: frontend + backend
+Day 4 - Topic: Environment variables, security Practice: .env, CORS, secure credentials
+Day 5 - Topic: Intro to DevOps - CI/CD, GitHub Actions Practice: Automate tests and deployment
+Day 6 - Topic: Monitor & log production apps
+Practice: Setup logging, error reporting
+Day 7 - Topic: Mock interview questions, polish resume Practice: Prepare for job readiness
