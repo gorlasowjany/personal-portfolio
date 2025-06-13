@@ -8,7 +8,5 @@ app.post('/api/contact',(req,res) => {
     console.log('Received:',{name,email,message})
     res.status(200).json({status:'Message received'})
 })
-const PORT=5000
-app.listen(PORT,() => {
-    console.log(`Server running on http://localhost:${PORT}`)
-})
+const PORT = process.env.PORT || 5000
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`))

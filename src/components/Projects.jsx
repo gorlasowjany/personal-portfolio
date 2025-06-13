@@ -1,4 +1,5 @@
 import React from "react";
+import {motion} from "framer-motion";
 const projects = [
     {
       title: "Weather App",
@@ -15,9 +16,23 @@ const projects = [
       live: "https://yourtodoapp.vercel.app",
     },
   ]
+  const containerVariants = {
+    hidden: {},
+    show: {
+      transition: {
+        staggerChildren: 0.2,
+      },
+    },
+  }
+  
+  const cardVariants = {
+    hidden: { opacity: 0, y: 30 },
+    show: { opacity: 1, y: 0 },
+  }
 const Projects = () => {
     return (
-        <section className="w-full px-6 py-12 bg-gray-100 dark:bg-gray-900">
+        
+        <motion.section className="w-full px-6 py-12 bg-gray-100 dark:bg-gray-900" variants={containerVariants} initial="hidden" animate="show">
             <div className="max-w-6xl mx-auto">
                 <h2 className="text-3xl font-semibold text-center text-gray-800 dark:text-white mb-8">Projects</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -39,7 +54,7 @@ const Projects = () => {
                 </div>
             </div>
 
-        </section>
+        </motion.section>
 
     )
 }

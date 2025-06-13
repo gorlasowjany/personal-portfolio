@@ -1,7 +1,11 @@
 import React from "react";
+import {motion} from "framer-motion";
 const AboutMe = () =>{
     return(
-     <section className="w-full px-6 py-12 bg-white dark:bg-gray-900">
+        <motion.section initial={{ opacity: 0, y: 30 }} 
+        animate={{ opacity: 1, y: 0 }} 
+        transition={{ duration: 0.6 }} className="w-full px-6 py-12 bg-white dark:bg-gray-900" >
+            <section className="w-full px-6 py-12 bg-white dark:bg-gray-900">
       <div className="max-w-4xl mx-auto text-center">
         <img 
           src="/assets/profile.jpg" 
@@ -24,6 +28,9 @@ const AboutMe = () =>{
    
      </section>
 
+
+        </motion.section>
+     
     )
 }
 export default AboutMe
